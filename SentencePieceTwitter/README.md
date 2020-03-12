@@ -1,3 +1,5 @@
+# Instructions For build GUI by Qt (Python)
+
 After installing PyQt and QtDesigner, you will design your gui wtih QtDesigner environment. For translate the .ui file to a .py file you must write in your terminal: 
 
 `$ pyuic5 -x gui.ui -o gui.py`
@@ -5,6 +7,7 @@ After installing PyQt and QtDesigner, you will design your gui wtih QtDesigner e
 Later, you will need a index.py file for controlling logic and gui. Here is an example
 
 ```python
+# GUI folder who contains gui.py file
 from GUI.gui import *
 
 class myGUI(QtWidgets.QMainWindow, Ui_MainWindow):
