@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'gui.ui'
+# Form implementation generated from reading ui file 'GUI/gui.ui'
 #
 # Created by: PyQt5 UI code generator 5.14.1
 #
@@ -16,7 +16,8 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 600)
         MainWindow.setMinimumSize(QtCore.QSize(800, 600))
         MainWindow.setMaximumSize(QtCore.QSize(800, 600))
-        MainWindow.setStyleSheet("background-color: rgb(77, 200, 241);")
+        MainWindow.setStyleSheet("background-color: rgb(77, 200, 241);\n"
+"")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.plainTextEdit = QtWidgets.QPlainTextEdit(self.centralwidget)
@@ -44,9 +45,10 @@ class Ui_MainWindow(object):
         font.setItalic(False)
         self.plainTextEdit_2.setFont(font)
         self.plainTextEdit_2.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.plainTextEdit_2.setReadOnly(True)
         self.plainTextEdit_2.setObjectName("plainTextEdit_2")
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_3.setGeometry(QtCore.QRect(250, 320, 151, 41))
+        self.pushButton_3.setGeometry(QtCore.QRect(640, 320, 151, 41))
         self.pushButton_3.setStyleSheet("background-color: rgb(255, 170, 127);")
         self.pushButton_3.setObjectName("pushButton_3")
         self.splitter = QtWidgets.QSplitter(self.centralwidget)
@@ -55,7 +57,7 @@ class Ui_MainWindow(object):
         self.splitter.setObjectName("splitter")
         self.label_2 = QtWidgets.QLabel(self.splitter)
         self.label_2.setText("")
-        self.label_2.setPixmap(QtGui.QPixmap("bird.png"))
+        self.label_2.setPixmap(QtGui.QPixmap("GUI/../bird.png"))
         self.label_2.setObjectName("label_2")
         self.label = QtWidgets.QLabel(self.splitter)
         font = QtGui.QFont()

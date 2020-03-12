@@ -26,7 +26,8 @@
    <string>SentenceTweet</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(77, 200, 241);</string>
+   <string notr="true">background-color: rgb(77, 200, 241);
+</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPlainTextEdit" name="plainTextEdit">
@@ -104,11 +105,14 @@
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>640</x>
       <y>320</y>
       <width>151</width>
       <height>41</height>
@@ -138,7 +142,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>bird.png</pixmap>
+      <pixmap>../bird.png</pixmap>
      </property>
     </widget>
     <widget class="QLabel" name="label">
