@@ -3,6 +3,7 @@
 ![](screenshot.png)
 
 Sentecepiece uses a non supervised method for sentences tokenization. On this workshop I implemented a sentences tokenization through <b>word</b> and <b>prefixes</b> models. the last one allows users model using the tags < sep >, < cls > (BERT).
+The models were trained with a <b>spanish</b> tweets corpus.
 
 For install the requirements for this workshop you need PyQt5 and sentnecepiece packages.
 
