@@ -46,23 +46,40 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-style:solid;
+border-width:2px;
+border-color: rgb(19, 23, 255);
+border-radius: 20px;
+</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
       <x>860</x>
-      <y>140</y>
+      <y>180</y>
       <width>131</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="mouseTracking">
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:rgb(85, 255, 0);</string>
+     <string notr="true">#pushButton {
+  background-color: #4CAF50; 
+  color: black; 
+  border: none ;
+}
+
+#pushButton:hover {
+  background-color: rgb(66, 255, 24);
+}
+</string>
     </property>
     <property name="text">
      <string>Tokenize</string>
@@ -75,23 +92,35 @@
     <property name="geometry">
      <rect>
       <x>860</x>
-      <y>190</y>
+      <y>240</y>
       <width>131</width>
       <height>41</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(214, 203, 48);</string>
+     <string notr="true">#pushButton_2 {
+  background-color: rgb(223, 210, 60);
+  color: black; 
+  border: none ;
+}
+
+#pushButton_2:hover {
+  background-color: rgb(255, 248, 35);
+}
+</string>
     </property>
     <property name="text">
-     <string>Clear</string>
+     <string>Clean</string>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="plainTextEdit_2">
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>370</y>
+      <y>360</y>
       <width>841</width>
       <height>191</height>
      </rect>
@@ -104,6 +133,10 @@
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(222, 222, 222);
+border-style:solid;
+border-width:2px;
+border-color: rgb(19, 23, 255);
+border-radius: 20px;
 </string>
     </property>
     <property name="readOnly">
@@ -151,7 +184,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>340</y>
+      <y>330</y>
       <width>831</width>
       <height>20</height>
      </rect>
@@ -177,14 +210,25 @@
     <property name="geometry">
      <rect>
       <x>860</x>
-      <y>250</y>
+      <y>300</y>
       <width>131</width>
       <height>41</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(250, 211, 255);</string>
+     <string notr="true">#comboBox {
+  background-color: rgb(255, 209, 156);
+  color: black; 
+  border: none ;
+}
+
+#comboBox:hover {
+  background-color: rgb(255, 164, 85);
+}
+</string>
     </property>
     <item>
      <property name="text">
@@ -201,13 +245,25 @@ background-color: rgb(250, 211, 255);</string>
     <property name="geometry">
      <rect>
       <x>860</x>
-      <y>310</y>
+      <y>360</y>
       <width>131</width>
       <height>51</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 165, 162);</string>
+     <string notr="true">#pushButton_3 {
+  background-color: rgb(255, 157, 172);
+  color: black; 
+  border: none ;
+}
+
+#pushButton_3:hover {
+  background-color: rgb(255, 73, 246);
+}
+</string>
     </property>
     <property name="text">
      <string>Change Model 
@@ -231,13 +287,26 @@ Words</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>340</y>
+      <y>330</y>
       <width>77</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
      <string>Output</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>140</y>
+      <width>77</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Options</string>
     </property>
    </widget>
   </widget>
