@@ -1,3 +1,5 @@
+#Carlos Esteban Murillo S. 1526857
+
 from GUI.gui import *
 
 import sentencepiece as sp
