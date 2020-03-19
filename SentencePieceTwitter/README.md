@@ -1,4 +1,4 @@
-# Tokenize with Sentence Piece
+# Tokenize with SentencePiece
 
 Sentecepiece uses a non supervised method for sentences tokenization. On this workshop I implemented a sentences tokenization through <b>word</b> and <b>prefixes</b> models. the last one allows users model using the tags < sep >, < cls > (BERT).
 
