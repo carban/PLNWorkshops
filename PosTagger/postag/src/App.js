@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import axios from "axios";
+// import axios from "axios";
 import { Container, Table, Button } from "reactstrap";
 
 class App extends React.Component {
